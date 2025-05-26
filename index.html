@@ -95,6 +95,32 @@
       amazon_connect('snippetId', 'QVFJREFIZ29LQnhmSGFHV0dZd3VqdVgvcXQwMnJ2QWRRR200d29RNWl3dHIyYnNOTGdHUU1jdjdxQWlvTmoyQURSYzBxUXZZQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNaC9qdG9PUW1CTjVGeHVWWUFnRVFnQ3RNOG1xbDA3b0FZOU9GNC9kSHhjOXBJZHZZb1NpcC9lM3pqenYxVTRScHo1Y2lzU1FrdlVMOVdWdmc6OkU3MVkrSzhxbXJyajBhdnBwcUpCc2VNV0c5R2hBRlowdUlWc0M3OUR0eXNUTWtQR3NtZ1RvckYzUXJSOUIvWWpJd3RWaTV5WWk1dTZ6ZHd0SHdHYW5FL3A4YkJiZDdQQkZ2cnR1Q2tVcDc3WmN2cTNISkdXeE5UQkZhU1JTZm1wcXF5YjNHSWFvMmpaR2ZsL2tpUzNmTm9qS2tzN1p3Yz0=');
       amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
     </script>
+
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      location="asia-south1"
+      project-id="cc-ait-460610"
+      agent-id="91e1df78-061c-486f-b7de-5ba7b7f0cbbf"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat-bubble
+        chat-title="Healthcare">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+    </style>
     
 </body>
 </html>
